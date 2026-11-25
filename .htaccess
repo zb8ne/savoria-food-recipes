@@ -1,0 +1,8 @@
+Options -Indexes
+DirectoryIndex index.html index.php
+
+# Block direct public access to SQLite database & SQL schema files
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(storage|database)/ - [F,L]
+</IfModule>

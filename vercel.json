@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "api/health.php": {
+      "runtime": "vercel-php@0.9.0"
+    },
+    "api/recipes.php": {
+      "runtime": "vercel-php@0.9.0"
+    },
+    "api/favorites.php": {
+      "runtime": "vercel-php@0.9.0"
+    },
+    "api/reviews.php": {
+      "runtime": "vercel-php@0.9.0"
+    }
+  }
+}
